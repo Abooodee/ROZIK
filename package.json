@@ -1,0 +1,24 @@
+{
+  "name": "rozik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite --host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abooodee/ROZIK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abooodee/ROZIK/issues"
+  },
+  "homepage": "https://github.com/Abooodee/ROZIK#readme",
+  "dependencies": {
+    "three": "^0.148.0",
+    "vite": "^4.0.4"
+  }
+}
