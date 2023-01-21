@@ -1,0 +1,19 @@
+fieldset{
+    background-color:aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: auto;
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg");
+    margin-right: auto;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000"); 
+}
+form{
+    color:rgb(1, 82, 129);
+    padding: 10px;
+    border: 1.5px solid rgb(1, 82, 129);
+    border-radius: 5px;
+}

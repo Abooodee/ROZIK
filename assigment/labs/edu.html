@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function validateform(){
+            if(document.getElementById('course').checked==false){
+                alert('Pls select course');
+                return 0;
+            }
+        }
+    </script>
+</head>
+<body></body>
+<fieldset>
+    <legend><b>Education</b></legend>
+<form action="login.html" onsubmit="return validateform()">
+    <label for="cname">College/University:</label>
+  <select name="c" id="cname" >
+    <option value="mumbai">NMIMS Mumbai</option>
+    <option value="nmumbai">NMIMS Navi Mumbai</option>
+    <option value="indore">NMIMS Indore</option>
+  </select>
+    <br>
+    <br>  
+    <label for="course">Course:</label><br>
+    <input type="radio" name="c" value="BTI" id="course">BTI<br>
+    <input type="radio" name="c" value="BTech" id="course">BTech<br>
+    <input type="radio" name="c" value="MBATech" id="course">MBATech
+    <br>
+    <br>
+    <label for="year">Year:</label><br>
+    <input type="radio" name="y" value="1st" id="year">1st Year<br>
+    <input type="radio" name="y" value="2st" id="year">2st Year<br>
+    <input type="radio" name="y" value="3st" id="year">3st Year<br>
+    <input type="radio" name="y" value="4st" id="year">4st Year<br>
+    <input type="radio" name="y" value="5st" id="year">5st Year<br>
+    <input type="radio" name="y" value="6st" id="year">6st Year<br>
+    <br>
+    <label for="lang">Languages:</label>
+    <br>
+    <input type="checkbox" name="l" value="python" id="lang">Python<br>
+    <input type="checkbox" name="l" value="java" id="lang">Java<br>
+    <input type="checkbox" name="l" value="cpp" id="lang">C++
+    <br>
+    <br>
+<input type="submit">
+
+</form>
+</fieldset>
+</body>
+</html>
