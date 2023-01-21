@@ -7,10 +7,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: #b3cde0;
+}
+
 #nav{
     background-color: #011F4B;
     height: 50px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -28,4 +33,14 @@
 #nav ul li:hover{
     font-weight: 600;
     text-shadow: 0 0 100px #ffffff, 0 0 10px
+}
+
+.centerNav{
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.centerNav img:hover{
+    cursor: pointer;
+    filter: invert(17%) sepia(90%) saturate(3000%) hue-rotate(900deg) brightness(100%) contrast(100%);
 }
