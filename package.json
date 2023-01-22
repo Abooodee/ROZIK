@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/Abooodee/ROZIK#readme",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "three": "^0.148.0",
+>>>>>>> dae0dd4095c2f90bb714e6d4ec3e1b02d798c0c0
     "vite": "^4.0.4"
   }
 }
